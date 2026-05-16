@@ -14,6 +14,8 @@
 - Hugo Cruz
 
 ---
+## run code
+- python test_project.py
 
 ## 🏗️ Architecture
 
