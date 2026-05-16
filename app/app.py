@@ -86,7 +86,7 @@ def predict(airline_name, origin, dest, month_name, day_name,
     }
 
     try:
-        resp = requests.post(SERVING_URL, json=payload, headers=headers, timeout=15)
+        resp = requests.post(SERVING_URL, json=payload, headers=headers, timeout=60)
         resp.raise_for_status()
         data = resp.json()
 
